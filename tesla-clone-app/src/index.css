@@ -42,9 +42,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 8px;
   border-radius: 16.5rem;
   opacity: 0.85;
   text-transform: uppercase;
   font-size: .85rem;
   cursor: pointer;
+}
+.DownArrow {
+  margin-top: 1.25rem;
+  height: 2.5rem;
+}
+.ArrowImage {
+  width: 35%;
 }
