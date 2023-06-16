@@ -12,3 +12,7 @@ body {
 .Container {
   height: 100vh;
 }
+.Wrap {
+  width: 100vw;
+  height: 100vh;
+}
