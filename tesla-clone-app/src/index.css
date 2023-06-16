@@ -20,3 +20,7 @@ body {
   background-repeat: no-repeat;
   background-image: url("../public/Images/model-s.jpg");
 }
+.ItemText {
+  padding-top: 15vh;
+  text-align:center;
+}
