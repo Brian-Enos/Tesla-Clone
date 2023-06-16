@@ -6,6 +6,8 @@ function Home() {
   return (
     <div className="Container">
      <Section />
+     <Section />
+     <Section />
     </div>
   )
 }
