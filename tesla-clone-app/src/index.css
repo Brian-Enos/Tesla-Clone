@@ -8,6 +8,7 @@
 }
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 .Container {
   height: 100vh;
@@ -49,6 +50,14 @@ body {
   font-size: .85rem;
   cursor: pointer;
 }
+.RightButton {
+  background-color: white;
+  opacity: .70;
+  color: #000;
+}
+/* .Buttons {
+  margin-top: 2.5rem;
+} */
 @keyframes animateDown {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
@@ -62,9 +71,11 @@ body {
   }
 }
 .DownArrow {
-  margin-top: 1.25rem;
-  height: 2.5rem;
+  /* margin-top: 1.25rem; */
+  overflow-x: hidden;
+  height: 7.7rem;
   animation: animateDown infinite 1.5s;
+  overflow-y: hidden;
 }
 .ArrowImage {
   width: 35%;
