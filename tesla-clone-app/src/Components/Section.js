@@ -24,9 +24,9 @@ function Section() {
         </div>
 
         <div className="DownArrow">
-          <img src={DownArrow} />
+          <img src={DownArrow} className="ArrowImage" />
         </div>
-        
+
       </div>
 
       
