@@ -1,5 +1,6 @@
 
-import React from 'react'
+import React from 'react' ;
+import DownArrow from "../Images/down-arrow.png";
 
 function Section() {
   return (
@@ -21,6 +22,13 @@ function Section() {
 
 
       </div>
+
+      <div className="DownArrow">
+        <img src={DownArrow} />
+      </div>
+
+
+
     </div>
   )
 }
