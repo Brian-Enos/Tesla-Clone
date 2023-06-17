@@ -2,7 +2,8 @@
 import React from 'react' ;
 import DownArrow from "../Images/down-arrow.png";
 
-function Section() {
+function Section(props) {
+  console.log(props)
   return (
     <div className="Wrap">
       <div className="ItemText">
