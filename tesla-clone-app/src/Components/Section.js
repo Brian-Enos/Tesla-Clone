@@ -7,19 +7,19 @@ function Section(props) {
   return (
     <div className="Wrap">
       <div className="ItemText">
-        <h1>Model S</h1>
-        <p>Order Online for Touchless Delivery</p>
+        <h1>{props.title}</h1>
+        <p>{props.description}</p>
       </div>
 
       <div className="Buttons">
         <div className="ButtonGroup">
 
           <div className="LeftButton">
-            Custom Order
+           {props.leftBtnText}
           </div>
 
           <div className='RightButton'>
-            Existing Inventory
+           {props.rightBtnText}
           </div>
 
         </div>
