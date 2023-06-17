@@ -9,10 +9,16 @@ function Header() {
       </a>
 
       <div className="Menu">
-        <p><a href="#">Model S</a></p>
-        <p><a href="#">Model 3</a></p>
-        <p><a href="#">Model X</a></p>
-        <p><a href="#">Model Y</a></p>
+        <a href="#">Model S</a>
+        <a href="#">Model 3</a>
+        <a href="#">Model X</a>
+        <a href="#">Model Y</a>
+      </div>
+
+      <div className="RightMenu">
+        <a href="#">Shop</a>
+        <a href="#">Tesla Accout</a>
+
       </div>
     </div>
   )
