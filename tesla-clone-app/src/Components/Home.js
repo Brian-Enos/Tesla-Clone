@@ -2,7 +2,7 @@ import React from 'react' ;
 import styled from "styled-components";
 import Section from "./Section";
 
-import ModelS from "../../public/Images/model-s.jpg";
+import ModelS from "../../src/Images/model-s.jpg";
 
 function Home() {
   return (
