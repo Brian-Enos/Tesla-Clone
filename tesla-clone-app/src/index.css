@@ -80,3 +80,9 @@ body {
 .ArrowImage {
   width: 25%;
 }
+
+@media (max-width: 768px) {
+  .ButtonGroup {
+    flex-direction: column;
+  }
+}
