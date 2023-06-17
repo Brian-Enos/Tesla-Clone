@@ -22,9 +22,14 @@ function Section(props) {
           <div className="LeftButton">
             {props.leftBtnText}
           </div>
-          <div className='RightButton'>
-            {props.rightBtnText}
-          </div>
+          
+         
+          { props.rightBtnText && (
+            <div className='RightButton'>
+           {props.rightBtnText}
+            </div>)
+          }
+        
         </div>
 
         <div className="DownArrow">
