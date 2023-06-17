@@ -9,7 +9,7 @@ function Home() {
     <div className="Container">
      <Section
       title="Model S"
-      description='Order Online'
+      description='Order Online for Touchless Delivery'
       backgroundImage={ModelS}
       leftBtnText="Custom Order"
       rightBtnText="Existing Inventory"
