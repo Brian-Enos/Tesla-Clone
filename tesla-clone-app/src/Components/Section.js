@@ -1,6 +1,6 @@
 
 import React from 'react' ;
-import DownArrow from "../Images/down-arrow.png";
+import DownArrow from "../../src/Images/down-arrow.png";
 
 function Section(props) {
   console.log(props)
