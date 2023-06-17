@@ -7,6 +7,7 @@ import Model3 from "../../src/Images/model-3.jpg";
 import ModelX from "../../src/Images/model-x.jpg";
 import SolarPanelImage from "../../src/Images/solar-panel.jpg";
 import SolarRoof from "../../src/Images/solar-roof.jpg";
+import Accessories from '../../src/Images/accessories.jpg';
 
 function Home() {
   return (
@@ -57,6 +58,14 @@ function Home() {
         backgroundImage={SolarRoof}
         leftBtnText="Custom Order"
         rightBtnText="Existing Inventory"
+      />
+
+      <Section
+        title="Accesories"
+        description=""
+        backgroundImage={Accessories}
+        leftBtnText="Shop Now"
+        /* rightBtnText="Existing Inventory" */
       />
     </div>
   );
