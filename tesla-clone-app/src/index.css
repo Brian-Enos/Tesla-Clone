@@ -19,7 +19,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../public/Images/model-s.jpg");
+  background-image: url("../src/Images/model-s.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
