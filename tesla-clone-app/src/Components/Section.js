@@ -1,11 +1,17 @@
 
-import React from 'react' ;
+import React from 'react';
 import DownArrow from "../../src/Images/down-arrow.png";
 
 function Section(props) {
-  console.log(props)
+  const sectionStyle = {
+    backgroundImage: `url(${props.backgroundImage})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  };
+
   return (
-    <div className="Wrap">
+    <div className="Wrap" style={sectionStyle}>
       <div className="ItemText">
         <h1>{props.title}</h1>
         <p>{props.description}</p>
@@ -13,28 +19,20 @@ function Section(props) {
 
       <div className="Buttons">
         <div className="ButtonGroup">
-
           <div className="LeftButton">
-           {props.leftBtnText}
+            {props.leftBtnText}
           </div>
-
           <div className='RightButton'>
-           {props.rightBtnText}
+            {props.rightBtnText}
           </div>
-
         </div>
 
         <div className="DownArrow">
-          <img src={DownArrow} className="ArrowImage" />
+          <img src={DownArrow} className="ArrowImage" alt="Down Arrow" />
         </div>
-
       </div>
-
-      
-      
-
     </div>
-  )
+  );
 }
 
-export default Section
+export default Section;
